@@ -15,12 +15,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".bScheduleActivity" />
-        <activity android:name=".cCalendarActivity" />
-        <activity android:name=".dFaltasActivity" />
-        <activity android:name=".eMediasActivity" />
-        <activity android:name=".gSettingsActivity" />
-        <activity android:name=".ePhotosActivity"></activity>
+        <activity android:name=".bScheduleActivity"
+                  android:label="Schedule"
+                  android:theme="@style/AppTheme"/>
+        <activity android:name=".cCalendarActivity"
+                  android:label="Calendar"
+                  android:theme="@style/AppTheme"/>
+        <activity android:name=".dFaltasActivity"
+                  android:label="Faltas"
+                  android:theme="@style/AppTheme"/>
+        <activity android:name=".eMediasActivity"
+                  android:label="Medias"
+                  android:theme="@style/AppTheme"/>
+        <activity android:name=".gSettingsActivity"
+                  android:label="Settings"
+                  android:theme="@style/AppTheme"/>
+        <activity android:name=".ePhotosActivity"
+                  android:label="Photos"
+                  android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
